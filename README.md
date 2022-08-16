@@ -36,20 +36,36 @@ expire_logs_days = 10
 binlog_format = row
 ```
 ###Change settings
-setup your value on /opt/amysqlincbackup/amysqlincbackup.cnf
+setup your value on `/opt/amysqlincbackup/amysqlincbackup.cnf`
+
 Enter Your Backup Directory  *end of slash(/) - where the backup will be save
+
 `BACKUP_DIR=`
+
 Delete Full Mysql Backup Older Than x Day
-`DELETE_FULL_BACKUP='
+
+`DELETE_FULL_BACKUP=`
+
 Delete Previous Incremental Backup After each Full Backup (yes|no)
+
 `DELETE_INC_BACKUP=`
+
 Compress Full backup files (yes|no) 
+
 `COMPRESS_FULL_BACKUP=`
+
 Compress Incremental backup files (yes|no)
+
 `COMPRESS_INC_BACKUP=`
+
 MySQL binary log files directory path *end of slash(/)
+
 `BINLOGS_PATH=`
+
 set up the database credentials (dbadmin user and password)
+
 `DB_USER=`
+
 `DB_PASSWORD=`
+
 `DB_HOST=`
