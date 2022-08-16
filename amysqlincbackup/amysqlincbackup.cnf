@@ -1,0 +1,17 @@
+############# Setup Bellow Variable #############
+# Enter Your Backup Directory  *end of slash(/)
+BACKUP_DIR              =   '/backups/mysql/'
+# Delete Full Mysql Backup Older Than x Day
+DELETE_FULL_BACKUP      =   '10' 
+# Delete Previous Incremental Backup After each Full Backup (yes|no)
+DELETE_INC_BACKUP       =   'no'
+# Compress Full backup files (yes|no) 
+COMPRESS_FULL_BACKUP    =   'yes'
+# Compress Incremental backup files (yes|no)
+COMPRESS_INC_BACKUP     =   'yes'
+# MySQL binary log files directory path *end of slash(/)
+BINLOGS_PATH            =   '/var/lib/mysql/'
+# set up the database credentials (dbadmin user and password)
+DB_USER                 =   'YourDBAdminUser'
+DB_PASSWORD             =   'YourDBPassword'
+DB_HOST                 =   'localhost'
