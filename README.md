@@ -69,3 +69,5 @@ set up the database credentials (dbadmin user and password)
 `DB_PASSWORD=`
 
 `DB_HOST=`
+
+`DB_PORT=`
